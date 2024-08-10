@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/404/553/132/music-cover-monstercat-aloma-steele-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+.time-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100px;
+}
+.time-inner > div:nth-child(1) {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(230, 240, 240, 0.507);
+  color: rgb(8, 63, 86);
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time-inner > div:nth-child(2) {
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(95, 171, 204);
+  color: white;
+  font-weight: 700;
+  width: 100%;
+}
+.ampm {
+  padding: 10px;
+  background-color: rgb(95, 171, 204);
+}
